@@ -1,0 +1,12 @@
+com/foldertoai/service/DirScribeService$1.class
+com/foldertoai/FoldertoaiApplication.class
+com/foldertoai/cli/DirScribeCommand.class
+com/foldertoai/service/DirScribeService.class
+com/foldertoai/App.class
+com/foldertoai/service/JobManager.class
+com/foldertoai/service/JobManager$Status.class
+com/foldertoai/service/GitHubDownloader.class
+com/foldertoai/service/DirScribeService$TreeNode.class
+com/foldertoai/api/AsyncConfig.class
+com/foldertoai/api/DirScribeController.class
+com/foldertoai/service/JobManager$JobInfo.class
