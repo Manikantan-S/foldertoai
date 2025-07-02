@@ -39,9 +39,11 @@ This tool helps you quickly gather and merge source code or text files from a di
 
 ## Usage
 Run the application from the command line:
-
 ```sh
-java -jar target/dirscribe-1.0-SNAPSHOT.jar -i "/Users/manismagic/Desktop/codeforces" -o "/path/to/output.txt" [flags]
+java -jar target/dirscribe-1.0-SNAPSHOT.jar -i "input_path" -o "output_txt" 
+```
+```sh
+java -jar target/dirscribe-1.0-SNAPSHOT.jar -i "/Users/manismagic/Desktop/codeforces" -o "/path/to/output.txt" 
 ```
 - `-i <input_directory>`: The root directory to scan for files (required).
 - `-o <output_file>`: The path to the output `.txt` file (required).
@@ -83,24 +85,12 @@ java -jar target/dirscribe-1.0-SNAPSHOT.jar -i "/Users/manismagic/Desktop/codefo
 
 **Textual Process Flow Diagram:**
 
-```
-User (CLI/API)
-   |
-   v
-Spring Boot Controller (API) / CLI Parser
-   |
-   v
-DirScribeService (Spring-managed Service)
-   |
-   v
-[DFS Directory Traversal & Tree Construction]
-   |
-   v
-[Output Formatting & Aggregation]
-   |
-   v
-Output File 
-```
+
+![36EAC9BA-C134-4411-BE08-6F0CE17A6285_1_201_a](https://github.com/user-attachments/assets/506c8b4f-9f46-4b38-8323-2cc9ff9e0154)
+![70666735-75BA-409A-928E-C12A77324109_1_201_a](https://github.com/user-attachments/assets/e46f73c7-3568-413d-b157-3175c3e4ece4)
+![10B98791-5576-4E18-8E5D-328BFEFFD240_1_201_a](https://github.com/user-attachments/assets/6c52710f-406e-4b85-beff-480fa8cc15bf)
+
+
 
 ---
 
