@@ -1,6 +1,6 @@
 # FoldertoAI
 
-A lightweight, backend-focused utility designed to aggregate the contents of multiple files into a single `.txt` document. Ideal for preprocessing and consolidating textual data, particularly for input into machine learning, natural language processing pipelines, or AI models.
+A lightweight, DSA and backend-focused utility designed to aggregate the contents of multiple files into a single `.txt` document. Ideal for preprocessing and consolidating textual data, particularly for input into machine learning, natural language processing pipelines, or AI models.
 
 ---
 
