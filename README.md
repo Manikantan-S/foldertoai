@@ -29,7 +29,7 @@ This tool helps you quickly gather and merge source code or text files from a di
 ## Installation
 1. Ensure you have Java 17 or higher installed.
 2. Clone this repository or download the source code.
-3. Change directory and build the project using Maven:
+3. build the project using Maven:
    ```sh
    cd foldertoai
    mvn clean package
